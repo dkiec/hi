@@ -1,0 +1,239 @@
+/* text colors: https://colorhunt.co/palette/138308 */
+/* background colors : https://colorhunt.co/palette/162836 */
+
+/* General */
+
+body {
+  margin: 0;
+  background-color: #fffdf9;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+hr {
+  border-style: dotted none none none;
+  width: 5%;
+  border-width: 0.3125rem /*5px*/;
+  border-color: #9be3de;
+}
+
+h2 {
+  font-size: 2.1875rem /*35px*/;
+  color: #0a516d;
+}
+
+h3 {
+  font-size: 1.75rem /*28px*/;
+  color: #2b2726;
+}
+
+p {
+  font-size: 1.125rem /*18px*/;
+}
+/* Text */
+
+.me {
+  padding-top: 6.25rem /*100px*/;
+  font-size: 5rem /*80px*/;
+  line-height: 2;
+  margin: 0 auto;
+  font-family: 'Rock Salt', cursive, sans-serif;
+  color: #f77754;
+}
+.subme {
+  font-size: 1.6875rem /*27px*/;
+  margin: 0 auto;
+  font-family: 'Oxygen', sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  color: #f77754;
+}
+
+.headers {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.lngtxt {
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.mono {
+  font-family: 'Oxygen Mono', monospace;
+}
+
+.cpyright {
+  font-size: 0.8125rem /*13px*/;
+  color:#fffdf9;
+}
+
+.footer-link {
+  font-family: 'Oxygen Mono', monospace;
+  padding-right: 0.625rem /*10px*/;
+  color: #018790;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #beebe9;
+}
+
+.work_banner {
+  font-family: 'Rock Salt', cursive, sans-serif;
+  font-weight: bold;
+  font-size: 1.875rem /*30px*/;
+  font-weight: bolder;
+}
+
+/* Style and Spacing */
+
+.spacer {
+  height: 6.25rem /*100px*/;
+}
+
+.btn {
+	box-shadow: 0px 9px 5px -7px #beebe9 /*#3e7327*/;
+	background:linear-gradient(to bottom, #9be3de/*#77b55a*/ 5%, #018790/*#72b352*/ 100%);
+	background-color:#9be3de /*#77b55a*/;
+	border-radius:7px;
+	border:1px solid #0a516d /*#4b8f29*/;
+	display:inline-block;
+	cursor:pointer;
+	color:#fffdf9;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 37px #2b2726 /*#5b8a3c*/;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #018790 /*#72b352*/ 5%, #9be3de/*#77b55a*/ 100%);
+	background-color:#018790 /*#72b352*/;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+/* Images */
+
+.hotlink {
+  position: relative;
+  height: 6.25rem /*100px*/;
+  width: 6.25rem /*100px*/;
+  padding-left: 0.625rem /*10px*/;
+  padding-right: 0.625rem /*10px*/;
+  padding-top: 0.625rem /*10px*/;
+  padding-bottom: 0.625rem /*10px*/;
+}
+
+.hotlink:hover {
+  background-color: #9be3de;
+  border-radius: 100%;
+  border-width: 0.1rem;
+  border-height: 0.1rem;
+}
+
+.me_pic {
+  height: 12.5rem /*200px*/;
+  width: 12.5rem /*200px*/;
+}
+
+.Bcloud {
+  position: absolute;
+  left: 20%;
+  bottom: 40%;
+  height: 6.25rem /*100px*/;
+  width: 9.375rem /*150px*/;
+}
+.Tcloud {
+  position: absolute;
+  right: 0;
+  height:25%;
+  width: 45%;
+}
+
+.tree {
+  position: relative;
+  padding-top: 11.5625rem /*185px*/;
+  bottom: 0;
+  margin: 0 auto;
+  height: 26.875rem /*430px*/;
+  width: 23.375rem /*347px*/;
+}
+
+.mtnrange {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.circ {
+  border-radius: 100%;
+}
+
+.skill_icon {
+  height: 12.5rem /*200px*/;
+  width: 12.5rem /*200px*/;
+}
+
+/* divs */
+
+.skill-row {
+  padding-top: 3.125rem /*50px*/;
+  padding-bottom: 3.125rem /*50px*/;
+}
+
+.opener {
+  background-color: #beebe9;
+  position: relative;
+  margin: 0;
+  padding-top: 0;
+}
+
+.profile {
+  padding-top: 1.875rem /*30px*/;
+  padding-bottom: 4.6875rem /*75px*/;
+}
+
+.skills {
+  padding-top: 4.6875rem /*75px*/;
+  padding-bottom: 4.6875rem /*75px*/;
+}
+
+.contact-me {
+  padding-top: 4.6875rem /*75px*/;
+  padding-bottom: 1.875rem /*30px*/;
+}
+
+.contact_links {
+  position: fixed;
+  width: 18.75rem /*300px*/;
+  height: 9.375rem /*150px*/;
+  top: 2.1875rem /*35px*/;
+}
+
+.work_accepting {
+  position: fixed;
+  top: 1.875rem /*30px*/;
+  right: 0;
+  width: 18.75rem /*300px*/;
+  height: 9.375rem /*150px*/;
+}
+
+/* div containers */
+
+.bottom-container {
+  padding-top: 1.875rem /*30px*/;
+  padding-bottom: 0.3125rem /*5px*/;
+  background-color: #9be3de;
+}
+
+.middle-container {
+  padding-top: 0.625rem /*10px*/;
+  padding-bottom: 0.625rem /*10px*/;
+}
